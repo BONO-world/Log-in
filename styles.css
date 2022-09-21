@@ -1,0 +1,363 @@
+body.inter-fonts {
+    font-family: Inter,'Open Sans',sans-serif!important;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    display: block;
+}
+
+.pm-container-fluid{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+.pm-main-sign-in{
+    margin: 100px auto;
+}
+
+.pm-main-sign-in .pm-card{
+    position: relative;
+    margin:auto;
+}
+
+.pm-card{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 3px;
+    background-color: #fff;
+    width: 392px;
+    padding: 16px 32px;
+}
+
+.pm-main-sign-in .pm-card .pm-logo{
+    position:absolute;
+    top: -50px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+}
+
+.pm-logo{
+    display:block;
+    background: url(https://icon-library.com/images/register-icon-free/register-icon-free-16.jpg) no-repeat center;
+    background-size: 130px 130px;
+    width: 130px;
+    height: 130px
+}
+
+.pm-main-sign-in .pm-card .heading{
+    padding: 48px 0 24px;
+}
+
+.pm-main-sign-in .pm-card .heading h4{
+    font-size: 18px;
+    font-weight: blod;
+    color: #1a1a1a;
+    display: inline-block;
+    margin: 0;
+}
+
+.pm-main-sign-in .pm-card .heading .sign-up-link-container{
+    font-size: 12px;
+    color: #1a1a1a;
+    float: right;
+    line-height: 2.2;
+
+}
+
+
+
+.notify-failure{
+    background-color: rgb(241,111,109,.1);
+    border: solid 1px #f16f6d;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #c64442;
+}
+
+.notification-container{
+    width: 100%;
+    border-radius: 3px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+#sign-in-form{
+    padding-bottom: 16px;
+}
+
+form{
+    display:block;
+    margin-top: 0em;
+}
+
+.pm-form-group{
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.pm-form-label{
+    font-weight: 600;
+    display: block;
+    font-size: 12px;
+    color: #282828;
+    margin-bottom: 8px;
+}
+
+label{
+    cursor:default;
+}
+
+.pm-form-control{
+    font-size: 14px;
+    height: 40px;
+    color:#282828;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid #d4d4d4;
+    
+    display:block;
+    width: 98%;
+    line-height: 1.43;
+    background-color: #fafafa;
+    background-image: none;
+}
+
+input{
+    margin: 0;
+    font:inherit;
+}
+
+.input-validation-error{
+    font-size: 12px;
+    color: #c64442;
+    display: none;
+}
+
+input[type=checkbox]{
+    opacity: 0;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    margin-top: 2px;
+}
+
+input[type="checkbox" i]{
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+    
+}
+
+input[type=checkbox]+label {
+    cursor: pointer;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+input[type=checkbox]:checked+label:before {
+    background: #f26b3a url(https://static.getpostman.com/assets/tick.svg) center no-repeat;
+    content: "";
+    text-align: center;
+    background-size: 12px 14px;
+    border: 1px solid #f26b3a;
+}
+
+input[type=checkbox]+label:before {
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    padding: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    color: #fff;
+    background-color: #f4f4f4;
+    margin-bottom: 2px;
+}
+
+.pm-main-sign-in form .trouble-signing-in-link{
+    float: right;
+    line-height: 1.8;
+}
+
+a{
+    text-decoration: none;
+    color: #3e92f2;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+element.style{
+    display: block;
+}
+
+.do-not-remember-message {
+    font-size: 12px;
+    margin: 16px 0;
+    display: block;
+    color: #bb8406;
+    background-color: rbg(255,195,51,.05);
+    line-height: 3;
+    padding-left: 12px;
+    border: 1px solid #ffc333;
+}
+
+.pm-form-group:last-of-type{
+    margin-bottom: 0;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+.pm-main-sign-in form .sign-in-btn{
+    font-weight: 500;
+}
+
+.pm-btn-primary {
+    color: #fff;
+    background-color: #ff6c37;
+    height: 40px;
+    width: 97%;
+}
+
+.pm-btn{
+    display: inline-block;
+    
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+button {
+    font-family: inherit;
+}
+
+.pm-awesome-divider {
+    height: 1px;
+    width: 100%;
+    border-top: solid thin #f0f0f0;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.pm-awesome-divider {
+    margin: 8px 0 24px 0;
+}
+
+.pm-awesome-divider-div {
+    pad: 0 32px;
+}
+
+.pm-awesome-divider {
+    height: 1px;
+    width: 100%;
+    border-top: solid thin #f0f0f0;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.pm-awesome-divider {
+    margin: 8px 0 24px 0;
+}
+
+.pm-awesome-divider:after {
+    content: attr(data-label);
+    display: inline-block;
+    background: #fff;
+    padding: 0 32px;
+    position: relative;
+    top: -10px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+.pm-main-sign-in .pm-card .google-sign-in{
+    text-decoration: none;
+    padding: 0;
+    border-radius: 2px;
+    position: relative;
+    border: none;
+    margin: 0 auto 16px auto;
+    width: 100%;
+    display: flex;
+}
+
+.pm-btn-info {
+    color: #ffff;
+    background-color: #4285f4;
+    height: 40px;
+    width: 100%;
+}
+
+.pm-main-sign-in .pm-card .google-sign-in .google-logo {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 16px;
+    width: 38px;
+    margin: 1px 1px;
+    border-radius: 1px;
+    padding: 11px 12px 11.5px 12px;
+}
+
+.pm-main-sign-in .pm-card .google-sign-in .google-text {
+    line-height: 2.8;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    top: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.21875px;
+    text-align: center;
+    margin: 0 auto 16px auto;
+}
+.text-google {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css2?family&#x3D;Inter:wght@400;600&amp;display&#x3D;swap"> -->
+    
+</head>
+<body class="inter-fonts">
+    <div class="pm-contianer-fluid">
+        <div class="pm-main-sign-in">
+            <div class="pm-card">
+                <div class="pm-logo"></div>
+                <div class="heading">
+                    <h4>Sign in</h4>
+                    <div class="sign-up-link-container">
+                        
+                            <a class="pmt_sign-up-instead-link" id="sign-up-link" href="/signup">Create Account</a>
+                            instead?
+                        
+                    </div>
+                </div>
+                <div id="notification-div" class="notify-failure notification-container">
+                    <span id="notification-message"></span>
+                </div>
+                <form id="sign-in-form">
+                    <div class="pm-form-group">
+                        <label for="username" class="pm-form-label">Email or Username</label>
+                        <input type="text" class="pm-form-control" name="username" id="username" autocapitalize="off" spellcheck="true" autofocus="off">
+                        <span id="input-error-password" class="input-validation-error"></span>
+                    </div>
+                    <div class="pm-form-group">
+                        <label for="password" class="pm-form-label">Password</label>
+                        <input type="password" class="pm-form-control" name="password" id="password" autofocus autocomplete="off" autocapitalize="off" spellcheck="true" value>
+                        <span id="input-error-username" class="input-validation-error"></span>
+                    </div>
+                    <div class="pm-form-group">
+                        <input type="checkbox" id="remember-me-checkbox" checked>
+                        <label for="remember-me-checkbox">
+                            Stay signed in for 30 days
+                        </label>
+                        <a class="trouble-signing-in-link" href="/trouble-signing-in">Forgot Password?</a>
+                        <div class="do-not-remember-message" id="do-not-remember-message" style="display: block;">
+                            <span>You will be logged out after 30 minutes of inactivity.</span>
+                        </div>
+                    </div>
+                    <div class="pm-form-group">
+                        <button type="submit" class="pmt_sign-in-btn pm-btn pm-btn-primary sign-in-btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <input type="hidden" name="csrfToken" value="kQbAZr6UfCm5nzFV9wy8xXpUAdoXltnzTRZB4">
+                </form>
+                <div class="pm-awesome-divider-div">
+                    <div class="pm-awesome-divider" data-label="or"></div>
+                </div>
+                <a href="/google/oauth2" class="pm-btn pm-btn-info google-sign-in">
+                    <div class="google-logo">
+                        <img src="https://freesvg.org/img/1534129544.png" width="20px" height="20px">                    
+                    </div>
+                    <div class="text-google">
+                        <div class="pmt-sign-in-w-google-btn google-txt">Sign in with Google</div>
+                    </div>
+                </a>
+                
+            </div>
+
+        </div>
+    </div>    
+</body>
+</html>
